@@ -1,6 +1,8 @@
 import requests  
 from datetime import datetime
 from ics import Calendar, Event
+from pprint import pprint
+
 
 def main():
     START_DAY = '10' # input('input start day(01, 02, 11, 15...): ')
